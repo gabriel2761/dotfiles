@@ -1,0 +1,21 @@
+execute pathogen#infect()
+
+" set up editor look
+set number
+syntax on
+colorscheme Tomorrow
+
+" set up tabs
+set softtabstop=0
+set tabstop=4
+set shiftwidth=4
+set smarttab
+set autoindent
+set smartindent
+set nowrap
+set expandtab
+set relativenumber
+
+" Key mappings
+map <C-n> :NERDTreeToggle<CR>
+map <C-s> :w<CR>
