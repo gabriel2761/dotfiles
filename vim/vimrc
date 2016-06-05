@@ -39,5 +39,7 @@ command! Reload so %MYVIMRC
 " Functions
 
 " Leader Keys
-let mapleader = "/<Space>"
+let mapleader = "\<Space>"
+nnoremap <Leader>h gT
+nnoremap <Leader>l gt
 
