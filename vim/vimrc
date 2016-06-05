@@ -22,6 +22,7 @@ set smartindent
 set nowrap
 set expandtab
 set relativenumber
+set noswapfile
 
 " Key Mappings
 map <C-n> :NERDTreeToggle<CR>
