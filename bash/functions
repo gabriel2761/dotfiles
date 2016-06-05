@@ -39,7 +39,7 @@ printName() {
 
 cs() {
     if [[ $# -eq 0 ]]; then
-        home
+        cd; clear; showHomeBanner; ls;
     elif [[ -d $1 ]]; then
         cd "$1"
         ls
