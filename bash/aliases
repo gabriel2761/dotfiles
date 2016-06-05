@@ -10,6 +10,7 @@ alias r="clear; ruby"
 alias valias="nvim ~/.aliases"
 alias vimrc="nvim ~/.vimrc"
 
+# Colours
 cyan='\e[0;36m'
 reset="\033[0m"
 red='\e[0;31m'
@@ -29,7 +30,7 @@ alias jav="cd ~/Code/java; clear; showJavaBanner; ls -1"
 alias cha="cd /Users/gabriel/Code/challenges; ls"
 alias des="cd /Users/gabriel/Desktop; ls"
 alias notes="cd /Users/gabriel/Documents/text/lecture-notes; ls"
-alias dot="cd /Users/gabriel/Code/dotfiles/bash; ls"
+alias dot="cd /Users/gabriel/Code/dotfiles; ls"
 
 # Banners
 alias showWebBanner="printf '${yellow}------------------------\nWEB DEVELOPMENT PROJECTS\n------------------------\n${reset}'"
