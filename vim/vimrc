@@ -1,5 +1,12 @@
 execute pathogen#infect()
 
+call plug#begin('~/.vim/plugins')
+
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
+
+call plug#end()
+
 " set up editor look
 set number
 syntax on
