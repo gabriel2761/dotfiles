@@ -1,0 +1,96 @@
+
+red=$'\e[1;31m'
+grn=$'\e[1;32m'
+yel=$'\e[1;33m'
+blu=$'\e[1;34m'
+mag=$'\e[1;35m'
+cyn=$'\e[1;36m'
+end=$'\e[0m'
+
+cyan='\e[0;36m'
+reset="\033[0m"
+yellow='\e[0;33m'
+blue="\033[0;34m"
+
+m() {
+    mv -v "$1" "$2"
+    ls
+}
+
+new() {
+    dir=${PWD##*/}
+    clear;
+    checkBanners
+    if [[ "$dir" = "gabriel" ]]; then
+        cs
+    else
+        printName
+        if [[ ! $(ls .) ]]; then
+            echo "$dir is empty"
+        fi
+        ls;
+    fi
+}
+
+printName() {
+    dir=${PWD##*/}
+    printf "%s\n" "${red}gab${end} ${cyn}$dir${end}"
+}
+
+cs() {
+    if [[ $# -eq 0 ]]; then
+        home
+    elif [[ -d $1 ]]; then
+        cd "$1"
+        ls
+    else
+        echo "$1 is not a directory"
+    fi
+}
+
+c() {
+    previous=${PWD##*/}
+    if [[ $# -eq 0 ]]; then
+        clear
+        cd ..
+        current=${PWD##*/}
+        checkBanners
+        printf "%s\n" "${red}gab${end} ${cyn}$current${end} <- ${cyn}$previous${end}"
+        ls
+    elif [[ -d $1 ]]; then
+        clear
+        cd "$1"
+        current=${PWD##*/}
+        $inDir checkBanners
+        printf "%s\n" "${red}gab${end} ${cyn}$previous${end} -> ${cyn}$current${end}"
+        if [[ $inDir -eq 0 ]]; then
+            ls -1
+        else
+            ls
+        fi
+    else
+        echo "$1 is not a directory"
+    fi
+}
+
+
+checkBanners() {
+    contains $PWD /Users/gabriel/Code/webdev && showWebBanner && return 0
+    contains $PWD /Users/gabriel/Downloads && showDownBanner
+    contains $PWD /Users/gabriel/Code/scripts/bin && showScriptsBanner
+    contains $PWD /Users/gabriel/Code/java && showJavaBanner
+    if [[ $PWD = /Users/gabriel/Library/Application\ Support/Sublime\ Text\ 3/Packages/SimpleSnippets ]]; then
+        showSnippetBanner
+    fi
+    return 1
+}
+
+contains() {
+    if [[ "${1#*$2}" != "$1" ]]; then
+        return 0
+    else
+        return 1
+    fi
+}
+
+f

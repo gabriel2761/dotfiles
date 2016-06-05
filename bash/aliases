@@ -1,0 +1,67 @@
+# Updated vim
+alias vim='/usr/local/bin/vim'
+alias vcheatsheet="/Users/gabriel/Code/scripts/bin"
+
+# Custom commands
+alias vimprof="vim ~/.bash_profile"
+alias sublprof="subl ~/.bash_profile"
+alias sprof="subl ~/.bash_profile"
+alias salias="subl ~/.aliases"
+alias sfunc="subl ~/.functions"
+alias snotes="subl /Users/gabriel/Documents/text/lecture-notes"
+alias todo="open /Users/gabriel/Code/webdev/todo-list/index.html"
+alias trsh="open ~/.Trash"
+alias v="nvim"
+alias r="clear; ruby"
+alias vprof="nvim ~/.bash_profile"
+alias valias="nvim ~/.aliases"
+alias vimrc="nvim ~/.vimrc"
+
+cyan='\e[0;36m'
+reset="\033[0m"
+red='\e[0;31m'
+yellow='\e[0;33m'
+blue="\033[0;34m"
+
+# Navigation
+alias down="cd ~/Downloads; clear; showDownBanner ; ls -1"
+alias web="cd ~/Code/webdev; clear; showWebBanner; ls -1;"
+alias and="cd /Users/gabriel/Code/android; ls -1"
+alias scr="cd ~/Code/scripts/bin; clear; showScriptsBanner; ls"
+alias rub="cd /Users/gabriel/Code/ruby; ls"
+alias home="cd; clear; showHomeBanner; ls"
+alias app="cd /Applications;"
+alias doc="cd ~/Documents; ls -1"
+alias hack="cd ~/Hack; ls -1"
+alias jav="cd ~/Code/java; clear; showJavaBanner; ls -1"
+alias cha="cd /Users/gabriel/Code/challenges; ls"
+alias des="cd /Users/gabriel/Desktop; ls"
+alias notes="cd /Users/gabriel/Documents/text/lecture-notes; ls"
+alias simplesnippets="cd /Users/gabriel/Library/Application\ Support/Sublime\ Text\ 3/Packages/SimpleSnippets; clear; showSnippetBanner; ls -1"
+
+# Banners
+alias showWebBanner="printf '${yellow}------------------------\nWEB DEVELOPMENT PROJECTS\n------------------------\n${reset}'"
+alias showDownBanner="printf '${yellow}----------\nDOWNLOADS\n----------\n${reset}'";
+alias showScriptsBanner="printf '${yellow}-------\nSCRIPTS\n-------\n${reset}'"
+alias showHomeBanner="printf '${yellow}-----\nHOME\n-----\n${reset}'"
+alias showSnippetBanner="printf '${yellow}----------------\nSUBLIME SNIPPETS\n----------------\n${reset}'"
+alias showJavaBanner="printf '${yellow}-------------\nJAVA PROJECTS\n-------------\n${reset}'"
+
+# Commands
+alias l="ls"
+alias q="new"
+alias la="ls -a"
+alias cb="cd -; ls"
+alias ql="clear; ls"
+
+# Git
+alias gl="git log --oneline"
+alias gs="git status -s"
+alias gcm="git add --all; git commit -m"
+alias gp="git push"
+alias gd="git diff --color | diff-so-fancy"
+alias vimtor="vim ~/.rtorrent.rc"
+alias log="cd /Users/gabriel/Documents/text/Log.wiki; ls; subl ."
+
+# Other
+alias atomsnippets="atom /Users/gabriel/.atom/snippets.cson"
