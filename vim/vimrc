@@ -45,3 +45,4 @@ nnoremap <Leader>h gT
 nnoremap <Leader>l gt
 nnoremap <Leader>H :tabm -1<CR>
 nnoremap <Leader>L :tabm +1<CR>
+nnoremap <Leader>w :close<CR>
