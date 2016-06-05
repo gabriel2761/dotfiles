@@ -3,12 +3,14 @@ alias vim='/usr/local/bin/vim'
 alias vcheatsheet="/Users/gabriel/Code/scripts/bin"
 
 # Custom commands
-alias vprof="nvim ~/.bash_profile"
+alias bashprof="nvim ~/.bash_profile"
 alias trsh="open ~/.Trash"
 alias v="nvim"
 alias r="clear; ruby"
-alias valias="nvim ~/.aliases"
+alias aliases="nvim ~/.aliases"
+alias functions="nvim ~/.functions"
 alias vimrc="nvim ~/.vimrc"
+alias reload=". ~/.bash_profile"
 
 # Colours
 cyan='\e[0;36m'
