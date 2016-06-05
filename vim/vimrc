@@ -23,6 +23,20 @@ set nowrap
 set expandtab
 set relativenumber
 
-" Key mappings
+" Key Mappings
 map <C-n> :NERDTreeToggle<CR>
 map <C-s> :w<CR>
+map <C-p> :FZF<CR>
+map <C-s> :w<CR>
+
+" Normal Map
+nmap 0 ^
+
+" Command Aliases
+command! Reload so %MYVIMRC
+
+" Functions
+
+" Leader Keys
+let mapleader = "/<Space>"
+
