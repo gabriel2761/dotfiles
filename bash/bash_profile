@@ -3,6 +3,7 @@
 PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
 export PATH
 
+export PATH=$PATH:/Applications/Sublime\ Text.app/Contents/SharedSupport/bin
 export PATH=$PATH:/Applications/Android\ Studio.app/Contents/MacOS
 export PATH=$PATH:/Users/gabriel/Code/scripts/bin
 export PATH=$PATH:/Users/gabriel/Library/Android/sdk/platform-tools
