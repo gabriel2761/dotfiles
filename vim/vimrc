@@ -29,6 +29,7 @@ map <C-n> :NERDTreeToggle<CR>
 map <C-s> :w<CR>
 map <C-p> :FZF<CR>
 map <C-s> :w<CR>
+imap <C-s> :w<CR>
 
 " Normal Map
 nmap 0 ^
@@ -42,4 +43,5 @@ command! Reload so %MYVIMRC
 let mapleader = "\<Space>"
 nnoremap <Leader>h gT
 nnoremap <Leader>l gt
-
+nnoremap <Leader>H :tabm -1<CR>
+nnoremap <Leader>L :tabm +1<CR>
