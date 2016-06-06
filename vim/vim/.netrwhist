@@ -1,8 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/Users/gabriel/Code/webdev/githubPage'
-let g:netrw_dirhist_2='/Users/gabriel/Code/webdev/map/README.md'
-let g:netrw_dirhist_3='/Users/gabriel/.vim'
-let g:netrw_dirhist_4='/Users/gabriel/Code/webdev/backbone/.git'
-let g:netrw_dirhist_5='/Users/gabriel/Code/webdev/typing-web-app/.git'
-let g:netrw_dirhist_6='/Users/gabriel/.vim/bundle'
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/Users/gabriel/Code/webdev/typing-web-app'
+let g:netrw_dirhist_2='/Users/gabriel/Code/dotfiles/vim'
