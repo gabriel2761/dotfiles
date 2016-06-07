@@ -1,5 +1,4 @@
 set nocompatible              " be iMproved, required
-execute pathogen#infect()
 filetype plugin indent on
 
 call plug#begin('~/.vim/plugins')
@@ -7,6 +6,7 @@ call plug#begin('~/.vim/plugins')
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'Valloric/YouCompleteMe'
+Plug 'SirVer/ultisnips'
 
 call plug#end()
 
@@ -30,14 +30,11 @@ set relativenumber
 set noswapfile
 
 " Key Mappings
-map <C-n> :NERDTreeToggle<CR>
 map <C-s> :w<CR>
 map <C-p> :FZF<CR>
 map <C-s> :w<CR>
 imap <C-s> <esc>:w<CR>
 
-" Normal Map
-nmap 0 ^
 
 " Command Aliases
 command! Reload so %MYVIMRC
@@ -51,3 +48,15 @@ nnoremap <Leader>l gt
 nnoremap <Leader>H :tabm -1<CR>
 nnoremap <Leader>L :tabm +1<CR>
 nnoremap <Leader>w :close<CR>
+nnoremap <Leader>; A;<esc>''
+nnoremap <Leader>h ^
+nnoremap <Leader>l $
+
+" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
+
