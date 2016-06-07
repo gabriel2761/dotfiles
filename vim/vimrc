@@ -1,12 +1,16 @@
 set nocompatible              " be iMproved, required
 filetype plugin indent on
+let g:deoplete#enable_at_startup = 1
 
 call plug#begin('~/.vim/plugins')
 
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
-Plug 'Valloric/YouCompleteMe'
 Plug 'SirVer/ultisnips'
+function! DoRemote(arg)
+  UpdateRemotePlugins
+endfunction
+Plug 'Shougo/deoplete.nvim', { 'do': function('DoRemote') }
 
 call plug#end()
 
