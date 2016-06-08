@@ -56,6 +56,9 @@ nnoremap <Leader>; maA;<esc>`a:delmarks a<CR>
 nnoremap <Leader>h ^
 nnoremap <Leader>l $
 
+" Brackets
+inoremap ( ()<Esc>i
+
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
