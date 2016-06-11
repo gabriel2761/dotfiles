@@ -56,10 +56,7 @@ nnoremap <Leader>w :close<CR>
 nnoremap <Leader>; maA;<esc>`a:delmarks a<CR>
 nnoremap <Leader>h ^
 nnoremap <Leader>l $
-
-" Autocomplete
-" inoremap ( ()<Esc>i
-" inoremap < <><Esc>i
+nnoremap <Leader>[ A {}<esc>i<CR><esc>O
 
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
 let g:UltiSnipsExpandTrigger="<tab>"
