@@ -57,6 +57,8 @@ nnoremap <Leader>; maA;<esc>`a:delmarks a<CR>
 nnoremap <Leader>h ^
 nnoremap <Leader>l $
 nnoremap <Leader>[ A {}<esc>i<CR><esc>O
+nnoremap <Leader>n cc
+nnoremap <Leader>r :so $MYVIMRC<CR>
 
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
 let g:UltiSnipsExpandTrigger="<tab>"
