@@ -12,7 +12,7 @@ alias functions="nvim ~/.functions"
 alias vimrc="nvim ~/.vimrc"
 alias reload=". ~/.bash_profile"
 alias simplesnippets="clear; cd /Users/gabriel/Library/Application\ Support/Sublime\ Text\ 3/Packages/SimpleSnippets; ls"
-alias vimsnippets="clear; cd/Users/gabriel/Code/dotfiles/vim/vim/plugins/neosnippet-snippets/neosnippets; ls"
+alias vimsnippets="clear; cd /Users/gabriel/Code/dotfiles/vim/vim/plugins/neosnippet-snippets/neosnippets; ls"
 
 # Colours
 cyan='\e[0;36m'
