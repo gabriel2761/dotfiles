@@ -25,4 +25,5 @@ let mapleader = "\<Space>"
 nnoremap <Leader>r :so $MYVIMRC<CR> " Reload vimrc
 nnoremap <Leader>w :w<CR> " Write file
 nnoremap <Leader>q :q!<CR> " Force quit
+nnoremap <Leader>f i<C-X><C-f>
 
