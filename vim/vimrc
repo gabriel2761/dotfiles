@@ -2,6 +2,7 @@
 " Vim Setup
 set nocompatible " Not sure exactly what this does yet
 set noswapfile " Disable .swp files
+filetype on " Recognise the file type
 
 " Programming Setup
 syntax on  " Enable syntax highlighting
@@ -13,8 +14,9 @@ set tabstop=4 " Show tabs in four spaces
 set shiftwidth=4 " Commands o's and <<'s are indented correctly
 set smartindent " Indents on new line between braces
 
-" Allow backspace in insert mode
-set backspace=indent,eol,start
+" Editing
+set backspace=indent,eol,start " Allow backspace in insert mode
+
 
 " ========== Key maps =========
 
@@ -23,3 +25,4 @@ let mapleader = "\<Space>"
 nnoremap <Leader>r :so $MYVIMRC<CR> " Reload vimrc
 nnoremap <Leader>w :w<CR> " Write file
 nnoremap <Leader>q :q!<CR> " Force quit
+
