@@ -4,13 +4,17 @@ syntax on  " Enable syntax highlighting
 set number " Show line numbers
 set relativenumber " Make Line numbers relative
 set tabstop=4 " Show tabs in four spaces 
+set shiftwidth=4 " Commands o's and <<'s are indented correctly
+set smartindent " Indents on new line between braces
+
+" Allow backspace in insert mode
+set backspace=indent,eol,start
 
 " Disable .swp files
 set noswapfile
 
 " Leader keymaps
 let mapleader = "\<Space>"
-nnoremap <Leader>r :so $MYVIMRC<CR>  " Reload .vimrc
-
-" Custom keymaps 
-map <C-s> :w<CR>
+nnoremap <Leader>r :so $MYVIMRC<CR> " Reload vimrc
+nnoremap <Leader>w :w<CR> " Write file
+nnoremap <Leader>q :q!<CR> " Force quit
