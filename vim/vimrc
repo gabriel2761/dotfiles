@@ -1,95 +1,16 @@
-set nocompatible              " be iMproved, required
-filetype plugin indent on
-let g:deoplete#enable_at_startup = 1
+set nocompatible " Not sure exactly what this does yet
 
-call plug#begin('~/.vim/plugins')
+syntax on  " Enable syntax highlighting
+set number " Show line numbers
+set relativenumber " Make Line numbers relative
+set tabstop=4 " Show tabs in four spaces 
 
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'junegunn/fzf.vim'
-Plug 'jiangmiao/auto-pairs'
-Plug 'Shougo/neosnippet.vim'
-Plug 'Shougo/neosnippet-snippets'
-Plug 'pangloss/vim-javascript'
-
-function! DoRemote(arg)
-  UpdateRemotePlugins
-endfunction
-Plug 'Shougo/deoplete.nvim', { 'do': function('DoRemote') }
-
-call plug#end()
-
-" Plugin key-mappings.
-imap <C-k>     <Plug>(neosnippet_expand_or_jump)
-smap <C-k>     <Plug>(neosnippet_expand_or_jump)
-xmap <C-k>     <Plug>(neosnippet_expand_target)
-
-" SuperTab like snippets behavior.
-"imap <expr><TAB>
-" \ pumvisible() ? "\<C-n>" :
-" \ neosnippet#expandable_or_jumpable() ?
-" \    "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
-smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
-\ "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
-
-" For conceal markers.
-if has('conceal')
-  set conceallevel=2 concealcursor=niv
-endif
-
-
-" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
-filetype off                  " required
-
-" set up editor look
-set number
-syntax enable
-colorscheme Tomorrow
-
-" set up tabs
-set softtabstop=0
-set tabstop=4
-set shiftwidth=4
-set smarttab
-set autoindent
-set smartindent
-set nowrap
-set expandtab
-set relativenumber
+" Disable .swp files
 set noswapfile
 
-" Key Mappings
-map <C-s> :w<CR>
-map <C-p> :FZF<CR>
-map <C-s> :w<CR>
-imap <C-s> <esc>:w<CR>
-
-
-" Command Aliases
-command! Reload so %MYVIMRC
-
-" Functions
-
-" Leader Keys
+" Leader keymaps
 let mapleader = "\<Space>"
-nnoremap <Leader>j gT
-nnoremap <Leader>k gt
-nnoremap <Leader>H :tabm -1<CR>
-nnoremap <Leader>L :tabm +1<CR>
-nnoremap <Leader>w :close<CR>
-nnoremap <Leader>; maA;<esc>`a:delmarks a<CR>
-nnoremap <Leader>h ^
-nnoremap <Leader>l $
-nnoremap <Leader>[ A {}<esc>i<CR><esc>O
-nnoremap <Leader>r :so $MYVIMRC<CR>
-nnoremap <Leader>o o<esc>O
+nnoremap <Leader>r :so $MYVIMRC<CR>  " Reload .vimrc
 
-" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-
-" If you want :UltiSnipsEdit to split your window.
-let g:UltiSnipsEditSplit="vertical"
-
-let g:javascript_enable_domhtmlcss = 1
-let g:neosnippet#snippets_directory='~/.vim/vim-snippets'
+" Custom keymaps 
+map <C-s> :w<CR>
