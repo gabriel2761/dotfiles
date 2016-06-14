@@ -1,8 +1,14 @@
+" ========== Setup ==========
+" Vim Setup
 set nocompatible " Not sure exactly what this does yet
+set noswapfile " Disable .swp files
 
+" Programming Setup
 syntax on  " Enable syntax highlighting
 set number " Show line numbers
 set relativenumber " Make Line numbers relative
+
+" Tabs setup
 set tabstop=4 " Show tabs in four spaces 
 set shiftwidth=4 " Commands o's and <<'s are indented correctly
 set smartindent " Indents on new line between braces
@@ -10,8 +16,7 @@ set smartindent " Indents on new line between braces
 " Allow backspace in insert mode
 set backspace=indent,eol,start
 
-" Disable .swp files
-set noswapfile
+" ========== Key maps =========
 
 " Leader keymaps
 let mapleader = "\<Space>"
