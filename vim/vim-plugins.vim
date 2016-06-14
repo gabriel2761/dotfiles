@@ -1,0 +1,2 @@
+nnoremap <Leader>e iMIKO
+

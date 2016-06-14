@@ -27,3 +27,4 @@ nnoremap <Leader>w :w<CR> " Write file
 nnoremap <Leader>q :q!<CR> " Force quit
 nnoremap <Leader>f i<C-X><C-f>
 
+so ~/.vim-plugins.vim 
