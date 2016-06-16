@@ -7,12 +7,16 @@ filetype on " Recognise the file type
 " Programming Setup
 syntax on  " Enable syntax highlighting
 set number " Show line numbers
+colorscheme Tomorrow
 set relativenumber " Make Line numbers relative
+set timeoutlen=100
 
 " Tabs setup
 set tabstop=4 " Show tabs in four spaces 
 set shiftwidth=4 " Commands o's and <<'s are indented correctly
 set smartindent " Indents on new line between braces
+set autoindent
+filetype plugin indent on
 
 " Editing
 set backspace=indent,eol,start " Allow backspace in insert mode
@@ -27,4 +31,4 @@ nnoremap <Leader>w :w<CR> " Write file
 nnoremap <Leader>q :q!<CR> " Force quit
 nnoremap <Leader>f i<C-X><C-f>
 
-so ~/.vim-plugins.vim 
+" so ~/.vim-plugins.vim 
