@@ -10,4 +10,5 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 
 " Fuzzy finder keymap
+map <C-p> :FZF<CR>
 nmap <Leader>p :FZF<CR>

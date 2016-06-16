@@ -9,7 +9,7 @@ syntax on  " Enable syntax highlighting
 set number " Show line numbers
 colorscheme Tomorrow
 set relativenumber " Make Line numbers relative
-set timeoutlen=100
+set nowrap
 
 " Tabs setup
 set tabstop=4 " Show tabs in four spaces 
@@ -24,11 +24,21 @@ set backspace=indent,eol,start " Allow backspace in insert mode
 
 " ========== Key maps =========
 
+" Normal keymaps
+map <C-s> :w<CR>
+map 0 ^
+imap <C-s> <esc>:w<CR>
+
 " Leader keymaps
 let mapleader = "\<Space>"
-nnoremap <Leader>r :so $MYVIMRC<CR> " Reload vimrc
-nnoremap <Leader>w :w<CR> " Write file
-nnoremap <Leader>q :q!<CR> " Force quit
+nnoremap <Leader>r :so $MYVIMRC<CR>
+nnoremap <Leader>w :w<CR>
+nnoremap <Leader>q :q!<CR>
 nnoremap <Leader>f i<C-X><C-f>
+" Flick parenthesis
+nnoremap <Leader>[ A {<CR>}<esc>O 
+" Flick semicolon
+nnoremap <Leader>; maA;<esc>`a:delmarks a<CR>
+nnoremap <Leader>o O<esc>o
 
-" so ~/.vim-plugins.vim 
+so ~/.vim-plugins.vim 
