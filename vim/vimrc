@@ -16,6 +16,7 @@ set tabstop=4 " Show tabs in four spaces
 set shiftwidth=4 " Commands o's and <<'s are indented correctly
 set smartindent " Indents on new line between braces
 set autoindent
+set expandtab
 filetype plugin indent on
 
 " Editing
