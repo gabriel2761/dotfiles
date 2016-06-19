@@ -25,10 +25,6 @@ set backspace=indent,eol,start " Allow backspace in insert mode
 
 " ========== Key maps =========
 
-" Normal keymaps
-map <C-s> :w<CR>
-map 0 ^
-imap <C-s> <esc>:w<CR>
 
 " Leader keymaps
 let mapleader = "\<Space>"
@@ -41,5 +37,12 @@ nnoremap <Leader>[ A {<CR>}<esc>O
 " Flick semicolon
 nnoremap <Leader>; maA;<esc>`a:delmarks a<CR>
 nnoremap <Leader>o O<esc>o
+nnoremap <Leader>n :noh<esc>
+nnoremap <Leader>0 0
+
+" Normal keymaps
+map <C-s> :w<CR>
+map 0 ^
+imap <C-s> <esc>:w<CR>
 
 so ~/.vim-plugins.vim 
