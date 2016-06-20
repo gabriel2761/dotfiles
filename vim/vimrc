@@ -39,6 +39,7 @@ nnoremap <Leader>; maA;<esc>`a:delmarks a<CR>
 nnoremap <Leader>o O<esc>o
 nnoremap <Leader>n :noh<esc>
 nnoremap <Leader>0 0
+nnoremap <Leader>= =ip
 
 " Normal keymaps
 map <C-s> :w<CR>
