@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[<img src="http://placehold.it/${1:300}x${0:250}" alt="placeholder image">]]></content>
+
+    <tabTrigger>img-placeholdit</tabTrigger>
+
+    <scope>text.html(.basic)</scope>
+
+    <description>placehold.it</description>
+
+</snippet>

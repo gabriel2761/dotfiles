@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[sessionStorage]]></content>
+
+	<tabTrigger>sessionStorage</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>javascript</description>
+
+</snippet>

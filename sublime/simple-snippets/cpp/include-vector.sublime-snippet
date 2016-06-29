@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[#include <vector>]]></content>
+
+    <tabTrigger>include-vector</tabTrigger>
+
+    <scope>source.c++</scope>
+
+    <description>include</description>
+
+</snippet>

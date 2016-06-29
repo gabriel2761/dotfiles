@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[function AppViewModel() {
+	$0
+}
+
+ko.applyBindings(new AppViewModel());]]></content>
+
+	<tabTrigger>ko-AppViewModel</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>knockout</description>
+
+</snippet>

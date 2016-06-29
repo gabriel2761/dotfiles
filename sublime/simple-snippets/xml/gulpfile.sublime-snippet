@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[source.gulpfile.js]]></content>
+
+	<tabTrigger>gulpfile</tabTrigger>
+
+	<scope>text.xml</scope>
+
+	<description>scope</description>
+
+</snippet>

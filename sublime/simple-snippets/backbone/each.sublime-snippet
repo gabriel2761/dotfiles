@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[each($1, ${0:this})]]></content>
+
+	<tabTrigger>each</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>backbone</description>
+
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+<content><![CDATA[
+#ifndef _${1:CLASS}_H
+#define _${1:CLASS}_H
+
+#endif
+]]></content>
+
+    <tabTrigger>header-ifndef</tabTrigger>
+
+    <scope>source.c++</scope>
+
+    <description>#ifndef #define</description>
+
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[localStorage.removeItem('$1');$0]]></content>
+
+    <tabTrigger>js-localStorage-removeItem</tabTrigger>
+
+    <scope>source.js</scope>
+
+    <description>js</description>
+
+</snippet>

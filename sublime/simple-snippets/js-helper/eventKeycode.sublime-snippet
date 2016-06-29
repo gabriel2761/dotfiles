@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[event.keyCode]]></content>
+
+    <tabTrigger>event.KeyCode</tabTrigger>
+
+    <scope>source.js</scope>
+
+    <description>js-helper</description>
+
+</snippet>

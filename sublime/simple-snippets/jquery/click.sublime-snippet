@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[click($0);]]></content>
+
+	<tabTrigger>click</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>jquery</description>
+
+</snippet>

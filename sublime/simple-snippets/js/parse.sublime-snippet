@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[parse($0)]]></content>
+
+	<tabTrigger>parse</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>javascript</description>
+
+</snippet>

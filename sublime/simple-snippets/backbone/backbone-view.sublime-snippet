@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[Backbone.View.extend({$0});]]></content>
+
+	<tabTrigger>backbone-view</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>backbone</description>
+
+</snippet>

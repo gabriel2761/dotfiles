@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[overflow-y: $0;]]></content>
+
+    <tabTrigger>overflow-y</tabTrigger>
+
+    <scope>source.css, source.scss, source.css.less, source.sass</scope>
+
+    <description>property</description>
+
+</snippet>

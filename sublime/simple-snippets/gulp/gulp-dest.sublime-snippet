@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[.pipe(gulp.dest('$1'));$0]]></content>
+
+    <tabTrigger>gulp-dest</tabTrigger>
+
+    <scope>source.js</scope>
+
+    <description>gulp</description>
+
+</snippet>

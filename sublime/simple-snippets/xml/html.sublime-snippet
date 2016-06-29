@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[text.html(.basic)]]></content>
+
+	<tabTrigger>html</tabTrigger>
+
+	<scope>text.xml</scope>
+
+	<description>scope</description>
+
+</snippet>

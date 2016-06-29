@@ -1,0 +1,4 @@
+:let mapleader=<space>
+
+:map <Leader>[ A {<CR>}<esc>O
+:map <C-c> maA;<esc>`a:delmarks a<CR><esc>j

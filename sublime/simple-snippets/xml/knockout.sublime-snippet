@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[knockout]]></content>
+
+	<tabTrigger>knockout</tabTrigger>
+
+	<scope>text.xml</scope>
+
+	<description>description</description>
+
+</snippet>

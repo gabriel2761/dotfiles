@@ -1,0 +1,15 @@
+<snippet>
+<content><![CDATA[
+elevation: {
+	type: ${1:Number},
+	value: ${2:1},
+	reflectToAttribute: ${3:true}
+}]]></content>
+
+	<tabTrigger>elevation</tabTrigger>
+
+	<scope>text.html(.basic)</scope>
+
+	<description>polymer</description>
+
+</snippet>

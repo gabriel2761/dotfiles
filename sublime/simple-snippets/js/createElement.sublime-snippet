@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[createElement($0)]]></content>
+
+	<tabTrigger>createElement</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>javascript</description>
+
+</snippet>

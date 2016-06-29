@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[indexOf($0)]]></content>
+
+	<tabTrigger>indexOf</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>javascript</description>
+
+</snippet>

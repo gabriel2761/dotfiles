@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[length()]]></content>
+
+    <tabTrigger>length</tabTrigger>
+
+    <scope>source.c++</scope>
+
+    <description>std::string</description>
+
+</snippet>

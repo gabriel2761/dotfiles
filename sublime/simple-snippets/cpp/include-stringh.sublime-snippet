@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[#include <string.h>]]></content>
+
+    <tabTrigger>include-stringh</tabTrigger>
+
+    <scope>source.c++</scope>
+
+    <description>include</description>
+
+</snippet>

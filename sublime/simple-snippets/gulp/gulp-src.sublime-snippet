@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[return gulp.src('$1')$0]]></content>
+
+    <tabTrigger>gulp-src</tabTrigger>
+
+    <scope>source.js</scope>
+
+    <description>gulp</description>
+
+</snippet>

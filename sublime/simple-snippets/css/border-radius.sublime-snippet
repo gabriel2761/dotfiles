@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[border-radius: ${0:50%};]]></content>
+
+	<tabTrigger>border-radius</tabTrigger>
+
+	<scope>source.css, source.scss, source.css.less, source.sass</scope>
+
+	<description>property</description>
+
+</snippet>

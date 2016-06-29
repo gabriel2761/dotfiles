@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[*$1*$0]]></content>
+
+    <tabTrigger>emp</tabTrigger>
+
+    <scope>text.html.markdown</scope>
+
+    <description>italics</description>
+
+</snippet>

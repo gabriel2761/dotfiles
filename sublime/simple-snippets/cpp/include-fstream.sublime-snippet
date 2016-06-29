@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[#include <fstream>]]></content>
+
+    <tabTrigger>include-fstream</tabTrigger>
+
+    <scope>source.c++</scope>
+
+    <description>include</description>
+
+</snippet>

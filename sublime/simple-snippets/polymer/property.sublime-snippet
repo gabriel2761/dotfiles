@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[properties: {${0}}]]></content>
+
+	<tabTrigger>properties</tabTrigger>
+
+	<scope>text.html(.basic)</scope>
+
+	<description>polymer</description>
+
+</snippet>

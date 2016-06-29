@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[getElementById('$0')]]></content>
+
+	<tabTrigger>getElementById</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>javascript</description>
+
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[listenTo(${1:/* model */}, '${2:/* event */}', ${3:/* callback */});$0]]></content>
+
+    <tabTrigger>listenTo</tabTrigger>
+
+    <scope>source.js</scope>
+
+    <description>backbone</description>
+
+</snippet>

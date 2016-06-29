@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[stringify($0)]]></content>
+
+	<tabTrigger>stringify</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>javascript</description>
+
+</snippet>

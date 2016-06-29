@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[for (int ${2:i} = 0; ${2:i} < ${1:count}; ${3:${2:i}++})${4: }{$0}]]></content>
+
+    <tabTrigger>for</tabTrigger>
+
+    <scope>source.c++</scope>
+
+    <description>for-loop</description>
+
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[Friday]]></content>
+
+    <tabTrigger>friday</tabTrigger>
+
+    <scope>text.html.markdown</scope>
+
+    <description>Friday</description>
+
+</snippet>

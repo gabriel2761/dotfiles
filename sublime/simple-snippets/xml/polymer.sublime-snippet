@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[polymer]]></content>
+
+	<tabTrigger>polymer</tabTrigger>
+
+	<scope>text.xml</scope>
+
+	<description>description</description>
+
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[if ($0)]]></content>
+
+	<tabTrigger>if</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>js</description>
+
+</snippet>

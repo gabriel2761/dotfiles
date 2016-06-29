@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[setItem('${1:key}', '${0:value}');]]></content>
+
+	<tabTrigger>setItem</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>localStorage</description>
+
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[innerHTML = '$0';]]></content>
+
+	<tabTrigger>innerHTML</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>javascript</description>
+
+</snippet>

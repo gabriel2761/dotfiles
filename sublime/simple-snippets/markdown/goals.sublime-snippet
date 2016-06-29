@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[##### Goals
+$0]]></content>
+
+    <tabTrigger>goals</tabTrigger>
+
+    <scope>text.html.markdown</scope>
+
+    <description>log</description>
+
+</snippet>

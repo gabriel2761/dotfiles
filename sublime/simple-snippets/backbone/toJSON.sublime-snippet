@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[toJSON()]]></content>
+
+	<tabTrigger>toJSON</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>backbone</description>
+
+</snippet>

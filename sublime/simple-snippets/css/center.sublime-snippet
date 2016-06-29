@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[center]]></content>
+
+	<tabTrigger>center</tabTrigger>
+
+	<scope>source.css, source.scss, source.css.less, source.sass</scope>
+
+	<description>value</description>
+
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[<link href="$1" rel="${0:stylesheet}">]]></content>
+
+	<tabTrigger>link</tabTrigger>
+
+	<scope>text.html(.basic)</scope>
+
+	<description>element</description>
+
+</snippet>

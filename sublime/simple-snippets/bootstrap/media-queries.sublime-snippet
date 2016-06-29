@@ -1,0 +1,21 @@
+<snippet>
+<content><![CDATA[
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}]]></content>
+
+	<tabTrigger>bootstrap-queries</tabTrigger>
+
+	<scope>source.css, source.scss, source.css.less, source.sass</scope>
+
+	<description>bootstrap</description>
+
+</snippet>

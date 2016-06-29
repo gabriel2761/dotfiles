@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[ko.applyBindings(${0:new AppViewModel()});]]></content>
+
+	<tabTrigger>applyBindings</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>knockout</description>
+
+</snippet>

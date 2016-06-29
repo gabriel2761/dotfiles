@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[img-responsive]]></content>
+
+	<tabTrigger>img-responsive</tabTrigger>
+
+	<scope>text.html(.basic)</scope>
+
+	<description>bootstrap</description>
+
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[\$('#$1')$0]]></content>
+
+	<tabTrigger>jquery</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>jquery</description>
+
+</snippet>

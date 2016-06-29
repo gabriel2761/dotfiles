@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[className: '$1',$0]]></content>
+
+    <tabTrigger>backbone-className</tabTrigger>
+
+    <scope>source.js</scope>
+
+    <description>backbone</description>
+
+</snippet>

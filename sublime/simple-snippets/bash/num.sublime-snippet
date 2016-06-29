@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[if [[ \$# -ne $1 ]]; then
+    $0
+fi
+
+]]></content>
+
+    <tabTrigger>ifn</tabTrigger>
+
+    <scope>source.shell</scope>
+
+    <description>num of args</description>
+
+</snippet>

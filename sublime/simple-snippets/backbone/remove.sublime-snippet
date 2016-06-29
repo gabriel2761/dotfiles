@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[remove($0)]]></content>
+
+	<tabTrigger>remove</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>backbone</description>
+
+</snippet>

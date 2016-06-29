@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[text.html.markdown]]></content>
+
+    <tabTrigger>markdown</tabTrigger>
+
+    <scope>text.xml</scope>
+
+    <description>scope</description>
+
+</snippet>

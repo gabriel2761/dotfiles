@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[typeof]]></content>
+
+	<tabTrigger>typeof</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>javascript</description>
+
+</snippet>

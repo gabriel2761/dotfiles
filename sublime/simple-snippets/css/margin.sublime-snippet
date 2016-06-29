@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[margin: ${1};]]></content>
+
+	<tabTrigger>margin</tabTrigger>
+
+	<scope>source.css, source.scss, source.css.less, source.sass</scope>
+
+	<description>property</description>
+
+</snippet>

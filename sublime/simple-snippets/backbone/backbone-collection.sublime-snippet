@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[Backbone.Collection.extend({
+    model: $0
+});]]></content>
+
+	<tabTrigger>backbone-collection</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>backbone</description>
+
+</snippet>

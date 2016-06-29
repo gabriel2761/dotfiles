@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[toggleClass('${1:classname}, ${0:true}')]]></content>
+
+	<tabTrigger>toggleClass</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>javascript</description>
+
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[localStorage.getItem('${1:key}');$0]]></content>
+
+    <tabTrigger>js-localStorage-getItem</tabTrigger>
+
+    <scope>source.js</scope>
+
+    <description>js</description>
+
+</snippet>

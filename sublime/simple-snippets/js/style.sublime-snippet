@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[style]]></content>
+
+	<tabTrigger>style</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>javascript</description>
+
+</snippet>

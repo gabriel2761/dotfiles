@@ -1,0 +1,26 @@
+<snippet>
+<content><![CDATA[<link rel="import" href="${1:../bower_components/polymer/polymer.html}">
+<dom-module id="${2:dom-element}">
+	<template>
+		<style>
+			:host {
+				display: block;
+			}
+		</style>
+		${0}
+	</template>
+	<script>
+		Polymer({
+			is: '${2}'
+		});
+	</script>
+</dom-module>
+	]]></content>
+
+	<tabTrigger>element</tabTrigger>
+
+	<scope>text.html(.basic)</scope>
+
+	<description>polymer</description>
+
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[localStorage.setItem('${1:key}', JSON.stringify(${2:array}));$0]]></content>
+
+    <tabTrigger>js-localStorage-setArray</tabTrigger>
+
+    <scope>source.js</scope>
+
+    <description>js</description>
+
+</snippet>

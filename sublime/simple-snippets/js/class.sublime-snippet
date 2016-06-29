@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[<button>$0</button>]]></content>
+
+    <tabTrigger>button</tabTrigger>
+
+    <scope>source.js</scope>
+
+    <description>jtag</description>
+
+</snippet>

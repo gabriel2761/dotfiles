@@ -1,0 +1,17 @@
+<snippet>
+<content><![CDATA[\$.ajax({
+	url: $1,
+	dataType: '${2:json}',
+}).done(function(result) {
+    ${3:console.log(result);}
+}).error(function(jqXHR, textStatus, errorThrown) {
+    ${4:console.log('Something went wrong');}
+});$0]]></content>
+
+	<tabTrigger>ajax</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>jquery</description>
+
+</snippet>

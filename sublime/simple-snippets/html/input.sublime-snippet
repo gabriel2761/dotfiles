@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[<input type="${1}" id="${2}">]]></content>
+
+	<tabTrigger>input</tabTrigger>
+
+	<scope>text.html(.basic)</scope>
+
+	<description>element</description>
+
+</snippet>

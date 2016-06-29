@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[appendChild($0)]]></content>
+
+	<tabTrigger>appendChild</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>javascript</description>
+
+</snippet>

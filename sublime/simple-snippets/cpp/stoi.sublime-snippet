@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[stoi($1)$0]]></content>
+
+    <tabTrigger>stoi</tabTrigger>
+
+    <scope>source.c++</scope>
+
+    <description>iostream</description>
+
+</snippet>

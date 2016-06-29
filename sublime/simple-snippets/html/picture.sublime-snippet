@@ -1,0 +1,39 @@
+<snippet>
+<content><![CDATA[
+<picture>
+	<source media="(min-width: 992px)"
+        srcset="
+			${1:largest image},
+			${2:largest image 2x} 2x">
+	<source media="(min-width: 768px)"
+		srcset="
+			${3:medium image},
+			${4:medium image 2x} 2x">
+	<source 
+		srcset="
+			${5:smallest image},
+			${6:smallest image 2x} 2x">
+	<img src="${7:backup image}">
+</picture>
+]]></content>
+
+	<tabTrigger>picture</tabTrigger>
+
+	<scope>text.html(.basic)</scope>
+
+	<description>picture with boostrap media queries</description>
+
+</snippet>
+
+<!-- 
+
+CSS: source.css
+HTML: text.html(.basic)
+JSON: source.json
+Javascript: source.js
+LESS: source.css.less
+SASS: source.sass
+Shell Script: source.shell
+Plain text: text.plain
+XML: text.xml
+-->

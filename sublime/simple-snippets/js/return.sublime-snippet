@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[return $0]]></content>
+
+	<tabTrigger>return </tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>javascript</description>
+
+</snippet>

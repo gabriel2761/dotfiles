@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[${1:name} = require('${0:package}')]]></content>
+
+	<tabTrigger>require</tabTrigger>
+
+	<scope>source.gulpfile.js</scope>
+
+	<description>gulp</description>
+
+</snippet>

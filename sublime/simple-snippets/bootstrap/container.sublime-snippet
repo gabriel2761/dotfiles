@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[container]]></content>
+
+	<tabTrigger>container</tabTrigger>
+
+	<scope>text.html(.basic)</scope>
+
+	<description>bootstrap</description>
+
+</snippet>

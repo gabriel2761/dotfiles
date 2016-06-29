@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[scrset="$1"]]></content>
+
+	<tabTrigger>srcset</tabTrigger>
+
+	<scope>text.html(.basic)</scope>
+
+	<description>attr</description>
+
+</snippet>

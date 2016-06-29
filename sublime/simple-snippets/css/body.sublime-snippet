@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[body]]></content>
+
+	<tabTrigger>body</tabTrigger>
+
+	<scope>source.css</scope>
+
+	<description>selector</description>
+
+</snippet>

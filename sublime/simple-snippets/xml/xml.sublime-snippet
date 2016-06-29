@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[text.xml]]></content>
+
+	<tabTrigger>xml</tabTrigger>
+
+	<scope>text.xml</scope>
+
+	<description>scope</description>
+
+</snippet>

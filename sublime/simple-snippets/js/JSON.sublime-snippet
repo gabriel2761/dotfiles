@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[JSON]]></content>
+
+	<tabTrigger>JSON</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>javascript</description>
+
+</snippet>

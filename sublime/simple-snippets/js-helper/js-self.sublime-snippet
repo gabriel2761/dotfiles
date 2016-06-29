@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[var self = this;]]></content>
+
+    <tabTrigger>js-self-this</tabTrigger>
+
+    <scope>source.js</scope>
+
+    <description>jshlp</description>
+
+</snippet>

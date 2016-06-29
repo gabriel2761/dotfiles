@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[source.css, source.scss, source.css.less, source.sass]]></content>
+
+	<tabTrigger>css</tabTrigger>
+
+	<scope>text.xml</scope>
+
+	<description>scope</description>
+
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[\$el]]></content>
+
+	<tabTrigger>el</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>jquery</description>
+
+</snippet>

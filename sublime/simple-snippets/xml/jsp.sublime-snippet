@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[text.html.jsp]]></content>
+
+    <tabTrigger>jsp</tabTrigger>
+
+    <scope>text.xml</scope>
+
+    <description>scope</description>
+
+</snippet>

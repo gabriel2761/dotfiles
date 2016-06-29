@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[source.c++]]></content>
+
+    <tabTrigger>cpp</tabTrigger>
+
+    <scope>text.xml</scope>
+
+    <description>scope</description>
+
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[initialize: function() {
+    $0
+},]]></content>
+
+	<tabTrigger>backbone-initialize</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>backbone</description>
+
+</snippet>

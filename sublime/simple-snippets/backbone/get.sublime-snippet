@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[get('$0')]]></content>
+
+	<tabTrigger>get</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>backbone</description>
+
+</snippet>

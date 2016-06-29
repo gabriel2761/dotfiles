@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[.pipe($1)$0]]></content>
+
+    <tabTrigger>gulp-pipe</tabTrigger>
+
+    <scope>source.js</scope>
+
+    <description>gulp</description>
+
+</snippet>

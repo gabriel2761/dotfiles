@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[\$4]]></content>
+
+    <tabTrigger>4</tabTrigger>
+
+    <scope>text.xml</scope>
+
+    <description>arg</description>
+
+</snippet>

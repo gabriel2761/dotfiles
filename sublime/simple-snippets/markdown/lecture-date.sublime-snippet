@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[### Week ${1:1}
+$0]]></content>
+
+    <tabTrigger>notes-week</tabTrigger>
+
+    <scope>text.html.markdown</scope>
+
+    <description>heading</description>
+
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[getItem('${1:key}')]]></content>
+
+	<tabTrigger>getItem</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>js</description>
+
+</snippet>

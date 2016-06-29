@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[toString()]]></content>
+
+	<tabTrigger>toString</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>Javascript</description>
+
+</snippet>

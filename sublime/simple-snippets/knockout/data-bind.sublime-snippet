@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[data-bind="$0"]]></content>
+
+	<tabTrigger>ko-data-bind</tabTrigger>
+
+	<scope>text.html(.basic)</scope>
+
+	<description>knockout</description>
+
+</snippet>

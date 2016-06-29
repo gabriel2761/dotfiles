@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[echo "$0"]]></content>
+
+    <tabTrigger>echo</tabTrigger>
+
+    <scope>source.shell</scope>
+
+    <description>output text</description>
+
+</snippet>

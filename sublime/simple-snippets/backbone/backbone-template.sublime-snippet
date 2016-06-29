@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[template: _.template('$1'),$0]]></content>
+
+	<tabTrigger>backbone-template</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>backbone</description>
+
+</snippet>

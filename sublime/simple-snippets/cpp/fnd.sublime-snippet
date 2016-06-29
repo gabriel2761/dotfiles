@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[${1:int} ${2:function}($0);]]></content>
+
+    <tabTrigger>fnd</tabTrigger>
+
+    <scope>source.c++</scope>
+
+    <description>function declaration</description>
+
+</snippet>

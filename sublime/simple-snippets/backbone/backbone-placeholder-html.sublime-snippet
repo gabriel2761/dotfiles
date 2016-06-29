@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[<%= $0 %>]]></content>
+
+	<tabTrigger>backbone-placeholder</tabTrigger>
+
+	<scope>text.html(.basic)</scope>
+
+	<description>backbone</description>
+
+</snippet>

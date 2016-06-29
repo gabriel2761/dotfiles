@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[jtag]]></content>
+
+    <tabTrigger>jtag</tabTrigger>
+
+    <scope>text.xml</scope>
+
+    <description>description</description>
+
+</snippet>

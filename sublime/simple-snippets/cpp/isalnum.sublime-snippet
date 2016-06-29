@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[isalnum($1)$0]]></content>
+
+    <tabTrigger>isalnum</tabTrigger>
+
+    <scope>source.c++</scope>
+
+    <description>ctype.h</description>
+
+</snippet>

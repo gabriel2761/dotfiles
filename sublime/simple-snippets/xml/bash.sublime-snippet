@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[source.shell]]></content>
+
+    <tabTrigger>bash</tabTrigger>
+
+    <scope>text.xml</scope>
+
+    <description>scope</description>
+
+</snippet>

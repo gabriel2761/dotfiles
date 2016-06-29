@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[val()]]></content>
+
+	<tabTrigger>val</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>jquery</description>
+
+</snippet>

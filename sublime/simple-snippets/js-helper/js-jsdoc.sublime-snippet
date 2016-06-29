@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[/**]]></content>
+
+    <tabTrigger>js-doc</tabTrigger>
+
+    <scope>source.js</scope>
+
+    <description>jsdoc</description>
+
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[#include <algorithm>]]></content>
+
+    <tabTrigger>include-algorithm</tabTrigger>
+
+    <scope>source.c++</scope>
+
+    <description>include</description>
+
+</snippet>

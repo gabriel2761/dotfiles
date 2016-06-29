@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[#include <math.h>]]></content>
+
+    <tabTrigger>mathh</tabTrigger>
+
+    <scope>source.c++</scope>
+
+    <description>math library</description>
+
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[row]]></content>
+
+	<tabTrigger>row</tabTrigger>
+
+	<scope>text.html(.basic)</scope>
+
+	<description>bootstrap</description>
+
+</snippet>

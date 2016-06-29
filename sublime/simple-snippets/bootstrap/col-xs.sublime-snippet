@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[col-xs-${0}]]></content>
+
+	<tabTrigger>col-xs</tabTrigger>
+
+	<scope>text.html(.basic)</scope>
+
+	<description>bootstrap</description>
+
+</snippet>

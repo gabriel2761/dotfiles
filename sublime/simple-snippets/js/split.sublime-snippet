@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[split('$0')]]></content>
+
+	<tabTrigger>split</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>javascript</description>
+
+</snippet>

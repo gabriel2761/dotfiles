@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[delete[] $0]]></content>
+
+    <tabTrigger>delete[]</tabTrigger>
+
+    <scope>source.c++</scope>
+
+    <description>cpp</description>
+
+</snippet>

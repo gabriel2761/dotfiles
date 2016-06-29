@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[#### ${1:Monday}, ${2:14} ${3:March}
+$0]]></content>
+
+    <tabTrigger>date</tabTrigger>
+
+    <scope>text.html.markdown</scope>
+
+    <description>Date</description>
+
+</snippet>

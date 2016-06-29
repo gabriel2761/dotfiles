@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[atoi($1)$0]]></content>
+
+    <tabTrigger>atoi</tabTrigger>
+
+    <scope>source.c++</scope>
+
+    <description>stdlib.h</description>
+
+</snippet>

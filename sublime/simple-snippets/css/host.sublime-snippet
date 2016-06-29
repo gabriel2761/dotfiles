@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[:host {${0}}]]></content>
+
+	<tabTrigger>host</tabTrigger>
+
+	<scope>source.css, source.scss, source.css.less, source.sass</scope>
+
+	<description>polymer</description>
+
+</snippet>

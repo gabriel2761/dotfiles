@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[import]]></content>
+
+	<tabTrigger>import</tabTrigger>
+
+	<scope>text.html(.basic)</scope>
+
+	<description>polymer</description>
+
+</snippet>

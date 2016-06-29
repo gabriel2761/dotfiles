@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[<paper-button>$1</paper-button>]]></content>
+
+	<tabTrigger>paper-button</tabTrigger>
+
+	<scope>text.html(.basic)</scope>
+
+	<description>polymer</description>
+
+</snippet>

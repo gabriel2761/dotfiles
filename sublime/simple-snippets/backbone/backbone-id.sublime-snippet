@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[id: '$1',$0]]></content>
+
+    <tabTrigger>backbone-id</tabTrigger>
+
+    <scope>source.js</scope>
+
+    <description>backbone</description>
+
+</snippet>

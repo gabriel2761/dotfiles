@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[gulp.dest('$0')]]></content>
+
+	<tabTrigger>dest</tabTrigger>
+
+	<scope>source.gulpfile.js</scope>
+
+	<description>gulp</description>
+
+</snippet>

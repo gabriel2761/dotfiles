@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[<source srcset="${1}">]]></content>
+
+	<tabTrigger>source</tabTrigger>
+
+	<scope>text.html</scope>
+
+	<description>element</description>
+
+</snippet>
+

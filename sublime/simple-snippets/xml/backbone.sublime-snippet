@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[backbone]]></content>
+
+	<tabTrigger>backbone</tabTrigger>
+
+	<scope>text.xml</scope>
+
+	<description>description</description>
+
+</snippet>

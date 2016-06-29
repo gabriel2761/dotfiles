@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[cout << $1${2: << endl};$0]]></content>
+
+    <tabTrigger>cout</tabTrigger>
+
+    <scope>source.c++</scope>
+
+    <description>output</description>
+
+</snippet>

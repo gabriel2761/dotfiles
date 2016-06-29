@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[column]]></content>
+
+	<tabTrigger>column</tabTrigger>
+
+	<scope>source.css, source.scss, source.css.less, source.sass</scope>
+
+	<description>value</description>
+
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[var ${1:app} = ${1:app} || {};
+
+$0]]></content>
+
+    <tabTrigger>js-namespace</tabTrigger>
+
+    <scope>source.js</scope>
+
+    <description>app namespace</description>
+
+</snippet>

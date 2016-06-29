@@ -1,0 +1,22 @@
+<snippet>
+<content><![CDATA[
+<snippet>
+<content><![CDATA[${0}]]${1:press delete}></content>
+
+	<tabTrigger>${2}</tabTrigger>
+
+	<scope>${3}</scope>
+
+	<description>${4}</description>
+
+</snippet>
+]]>
+</content>
+
+<tabTrigger>snippet</tabTrigger>
+
+    <scope>text.xml</scope>
+
+    <description>snippet</description>
+
+</snippet>

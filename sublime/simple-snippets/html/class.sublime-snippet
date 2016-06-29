@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[class="${1}"]]></content>
+
+	<tabTrigger>class</tabTrigger>
+
+	<scope>text.html(.doctype)</scope>
+
+	<description>attr</description>
+
+</snippet>
+

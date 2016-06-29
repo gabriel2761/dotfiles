@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[##### Learnt
+$0]]></content>
+
+    <tabTrigger>learnt</tabTrigger>
+
+    <scope>text.html.markdown</scope>
+
+    <description>heading</description>
+
+</snippet>

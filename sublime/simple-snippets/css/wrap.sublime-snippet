@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[wrap]]></content>
+
+	<tabTrigger>wrap</tabTrigger>
+
+	<scope>source.css, source.scss, source.css.less, source.sass</scope>
+
+	<description>value</description>
+
+</snippet>

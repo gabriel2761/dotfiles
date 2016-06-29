@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[exit]]></content>
+
+    <tabTrigger>exit</tabTrigger>
+
+    <scope>source.shell</scope>
+
+    <description>stops script</description>
+
+</snippet>

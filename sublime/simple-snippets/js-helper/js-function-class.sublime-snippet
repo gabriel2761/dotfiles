@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[var ${1:Name} = function($2) {
+    $0
+};]]></content>
+
+    <tabTrigger>js-function-class</tabTrigger>
+
+    <scope>source.js</scope>
+
+    <description>es5</description>
+
+</snippet>

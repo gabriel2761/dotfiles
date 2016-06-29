@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[include="$1"]]></content>
+
+	<tabTrigger>include</tabTrigger>
+
+	<scope>text.html(.basic)</scope>
+
+	<description>attr</description>
+
+</snippet>

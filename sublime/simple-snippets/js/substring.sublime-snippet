@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[substring($0)]]></content>
+
+	<tabTrigger>substring</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>javascript</description>
+
+</snippet>

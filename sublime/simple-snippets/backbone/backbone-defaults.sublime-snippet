@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[defaults: function() {
+    return {
+        $0
+    };
+},]]></content>
+
+    <tabTrigger>backbone-defaults</tabTrigger>
+
+    <scope>source.js</scope>
+
+    <description>backbone</description>
+
+</snippet>

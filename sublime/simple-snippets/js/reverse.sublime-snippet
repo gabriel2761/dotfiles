@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[reverse()]]></content>
+
+	<tabTrigger>reverse</tabTrigger>
+
+	<scope>source.js</scope>
+
+	<description>javascript</description>
+
+</snippet>
