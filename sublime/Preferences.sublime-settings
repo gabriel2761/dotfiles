@@ -1,0 +1,37 @@
+{
+	"afn_insert_dimensions": false,
+	"auto_complete_cycle": true,
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "abdcefghijklmnopqrstuvwxyz.",
+			"selector": "text.html, source.js, source.css, source.scss, source.css.less, source.sass, text.xml"
+		}
+	],
+	"color_scheme": "Packages/User/SublimeLinter/base16-ocean.light (SL).tmTheme",
+	"detect_indentation": true,
+	"font_size": 18,
+	"ignored_packages":
+	[
+		"C++ Snippets",
+		"SublimeLinter-contrib-scss-lint",
+		"SublimeLinter-cppcheck",
+		"SublimeLinter-cpplint",
+		"Vintage"
+	],
+	"line_padding_bottom": 2.2,
+	"line_padding_top": 2.2,
+	"rulers":
+	[
+		80,
+		100
+	],
+	"theme": "Spacegray Light.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space:": true,
+	"trim_trailing_white_space_on_save": true,
+	"vintage_lines.force_mode": true,
+	"vintage_start_in_command_mode": true,
+	"vintageous_use_ctrl_keys": true,
+	"word_wrap": false
+}
