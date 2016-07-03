@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[display: flex;]]></content>
+
+    <tabTrigger>dis-flex</tabTrigger>
+
+    <scope>source.css, source.scss, source.css.less, source.sass</scope>
+
+    <description>css</description>
+
+</snippet>

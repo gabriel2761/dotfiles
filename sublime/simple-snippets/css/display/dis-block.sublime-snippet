@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[display: block;]]></content>
+
+    <tabTrigger>dis-block</tabTrigger>
+
+    <scope>source.css, source.scss, source.css.less, source.sass</scope>
+
+    <description>css</description>
+
+</snippet>
