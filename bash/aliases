@@ -52,8 +52,7 @@ alias l="ls"
 alias q="new"
 alias la="ls -a"
 alias cb="cd -; ls"
-alias ql="clear; ls"
-alias log="cd /Users/gabriel/Documents/text/Log.wiki; ls; subl ."
+alias o="open"
 
 # Git
 alias gl="git log --oneline"
