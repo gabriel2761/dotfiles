@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[font-size: $1;$0]]></content>
+
+    <tabTrigger>f-sz</tabTrigger>
+
+    <scope>source.css, source.scss, source.css.less, source.sass</scope>
+
+    <description>font-size</description>
+
+</snippet>
