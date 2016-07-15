@@ -45,9 +45,6 @@ nnoremap <Leader>= =ip
 map <C-s> :w<CR>
 map <C-c> maA;<esc>`a:delmarks a<CR>
 map 0 ^
-map w W
-map b B
 imap <C-c> <esc>maA;<esc>`a:delmarks a<CR>
 imap <C-s> <esc>:w<CR>
 
-so ~/.vim-plugins.vim 
