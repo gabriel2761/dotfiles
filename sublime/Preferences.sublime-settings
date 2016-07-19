@@ -17,7 +17,8 @@
 		"SublimeLinter-contrib-scss-lint",
 		"SublimeLinter-cppcheck",
 		"SublimeLinter-cpplint",
-		"Vintage"
+		"Vintage",
+		"VintageLines"
 	],
 	"line_padding_bottom": 2.2,
 	"line_padding_top": 2.2,
@@ -33,5 +34,6 @@
 	"vintage_lines.force_mode": true,
 	"vintage_start_in_command_mode": true,
 	"vintageous_use_ctrl_keys": true,
-	"word_wrap": false
+	"word_wrap": false,
+	"scroll_past_end": true
 }

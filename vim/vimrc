@@ -22,6 +22,9 @@ filetype plugin indent on
 " Editing
 set backspace=indent,eol,start " Allow backspace in insert mode
 
+" Autocomplete Java
+autocmd FileType java setlocal omnifunc=javacomplete#Complete
+
 
 " ========== Key maps =========
 
@@ -48,3 +51,4 @@ map 0 ^
 imap <C-c> <esc>maA;<esc>`a:delmarks a<CR>
 imap <C-s> <esc>:w<CR>
 
+so ~/.vim-plugins.vim
