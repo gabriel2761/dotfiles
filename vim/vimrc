@@ -43,6 +43,8 @@ nnoremap <Leader>o O<esc>o
 nnoremap <Leader>n :noh<esc>
 nnoremap <Leader>0 0
 nnoremap <Leader>= =ip
+nnoremap <Leader>l $
+nnoremap <Leader>h ^
 
 " Normal keymaps
 map <C-s> :w<CR>
