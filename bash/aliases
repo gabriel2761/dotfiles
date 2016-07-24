@@ -37,7 +37,7 @@ alias des="cd /Users/gabriel/Desktop; ls"
 alias notes="cd /Users/gabriel/Notes; ls"
 alias note="cd /Users/gabriel/Notes; ls"
 alias dot="cd /Users/gabriel/Code/dotfiles; ls"
-
+alias shrp="cd /Users/gabriel/Code/csharp; ls"
 
 # Banners
 alias showWebBanner="printf '${yellow}------------------------\nWEB DEVELOPMENT PROJECTS\n------------------------\n${reset}'"
