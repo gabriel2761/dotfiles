@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[angular.module('${1:name}', [$2])$0]]></content>
+
+    <tabTrigger>ang-module</tabTrigger>
+
+    <scope>source.js</scope>
+
+    <description>angular</description>
+
+</snippet>

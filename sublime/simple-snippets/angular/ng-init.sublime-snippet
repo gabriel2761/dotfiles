@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[ng-init="$1"$0]]></content>
+
+    <tabTrigger>ng-init</tabTrigger>
+
+    <scope>text.html(.basic)</scope>
+
+    <description>angular</description>
+
+</snippet>
