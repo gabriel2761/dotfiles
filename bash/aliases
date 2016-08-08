@@ -38,6 +38,8 @@ alias notes="cd /Users/gabriel/Notes; ls"
 alias note="cd /Users/gabriel/Notes; ls"
 alias dot="cd /Users/gabriel/Code/dotfiles; ls"
 alias shrp="cd /Users/gabriel/Code/csharp; ls"
+alias htdocs="cd /Applications/wordpress-4.5.3-1/apps/wordpress/htdocs; ls"
+alias disrupt="cd /Users/gabriel/Code/disrupt_sports_website; ls"
 
 # Banners
 alias showWebBanner="printf '${yellow}------------------------\nWEB DEVELOPMENT PROJECTS\n------------------------\n${reset}'"
