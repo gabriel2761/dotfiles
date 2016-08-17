@@ -14,6 +14,9 @@ set completion-ignore-case on
 # Enable tab completion
 source ~/git-completion.bash
 
+# Enable vi-style key-bindings
+set -o vi
+
 export CLICOLOR=1
 
 # colors!
