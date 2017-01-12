@@ -1,11 +1,12 @@
 # Updated vim
-alias vim='/usr/local/bin/vim'
+# alias vim='/usr/local/bin/vim'
 alias vcheatsheet="/Users/gabriel/Code/scripts/bin"
 
 # Custom commands
 alias bashprof="nvim ~/.bash_profile"
 alias trsh="open ~/.Trash"
 alias v="nvim"
+alias vim="nvim"
 alias r="clear; ruby"
 alias aliases="nvim ~/.aliases"
 alias functions="nvim ~/.functions"
@@ -13,6 +14,9 @@ alias vimrc="nvim ~/.vimrc"
 alias reload=". ~/.bash_profile"
 alias simplesnippets="clear; cd /Users/gabriel/Code/dotfiles/sublime/simple-snippets; ls"
 alias vimsnippets="clear; cd /Users/gabriel/Code/dotfiles/vim/vim/plugins/neosnippet-snippets/neosnippets; ls"
+
+# Temp
+alias xamp-htdocs="cd /Applications/XAMPP/htdocs; ls"
 
 # Colours
 cyan='\e[0;36m'
@@ -23,15 +27,15 @@ blue="\033[0;34m"
 
 # TODO: Probably best to encapsulate some of these into functions
 # Navigation
-alias down="cd ~/Downloads; clear; showDownBanner ; ls -1"
-alias web="cd ~/Code/webdev; clear; showWebBanner; ls -1;"
+alias down="cd ~/Downloads; clear; showDownBanner ; ls"
+alias web="cd ~/Code/webdev; clear; showWebBanner; ls"
 alias and="cd /Users/gabriel/Code/android; ls -1"
 alias scr="cd ~/Code/scripts/bin; clear; showScriptsBanner; ls"
 alias rub="cd /Users/gabriel/Code/ruby; ls"
 alias app="cd /Applications;"
-alias doc="cd ~/Documents; ls -1"
-alias hack="cd ~/Hack; ls -1"
-alias jav="cd ~/Code/java; clear; showJavaBanner; ls -1"
+alias doc="cd ~/Documents; ls"
+alias hack="cd ~/Hack; ls"
+alias jav="cd ~/Code/java; clear; showJavaBanner; ls"
 alias cha="cd /Users/gabriel/Code/challenges; ls"
 alias des="cd /Users/gabriel/Desktop; ls"
 alias notes="cd /Users/gabriel/Notes; ls"
@@ -40,6 +44,7 @@ alias dot="cd /Users/gabriel/Code/dotfiles; ls"
 alias shrp="cd /Users/gabriel/Code/csharp; ls"
 alias htdocs="cd /Applications/wordpress-4.5.3-1/apps/wordpress/htdocs; ls"
 alias disrupt="cd /Users/gabriel/Code/disrupt_sports_website; ls"
+alias work="cd /Users/gabriel/Work; ls"
 
 # Banners
 alias showWebBanner="printf '${yellow}------------------------\nWEB DEVELOPMENT PROJECTS\n------------------------\n${reset}'"
@@ -55,6 +60,7 @@ alias q="new"
 alias la="ls -a"
 alias cb="cd -; ls"
 alias o="open"
+alias o.="open ."
 
 # Git
 alias gl="git log --oneline"

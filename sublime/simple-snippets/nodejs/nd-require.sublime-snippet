@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[var ${1:name} = require('${2}');${0}]]></content>
+
+    <tabTrigger>nd-require</tabTrigger>
+
+    <scope>source.js</scope>
+
+    <description>nodejs</description>
+
+</snippet>

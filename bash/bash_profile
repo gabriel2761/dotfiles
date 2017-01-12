@@ -7,15 +7,13 @@ export PATH=$PATH:/Applications/Sublime\ Text.app/Contents/SharedSupport/bin
 export PATH=$PATH:/Applications/Android\ Studio.app/Contents/MacOS
 export PATH=$PATH:/Users/gabriel/Code/scripts/bin
 export PATH=$PATH:/Users/gabriel/Library/Android/sdk/platform-tools
+export PATH=$PATH:/Applications/google_appengine
 export GOPATH=$PATH:/Users/gabriel/Code
 
 set completion-ignore-case on
 
 # Enable tab completion
 source ~/git-completion.bash
-
-# Enable vi-style key-bindings
-set -o vi
 
 export CLICOLOR=1
 

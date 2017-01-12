@@ -1,5 +1,5 @@
 <snippet>
-<content><![CDATA[gulp.task('${1:name}', function() {
+<content><![CDATA[gulp.task('${1:name}', () => {
     $0
 });]]></content>
 

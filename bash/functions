@@ -63,11 +63,7 @@ c() {
         current=${PWD##*/}
         $inDir checkBanners
         printf "%s\n" "${red}gab${end} ${cyn}$previous${end} -> ${cyn}$current${end}"
-        if [[ $inDir -eq 0 ]]; then
-            ls -1
-        else
-            ls
-        fi
+        ls
     else
         echo "$1 is not a directory"
     fi
@@ -92,5 +88,3 @@ contains() {
         return 1
     fi
 }
-
-f
